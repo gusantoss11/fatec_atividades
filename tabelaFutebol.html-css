@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Brasileirão</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#006437;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+th{
+    background:#006437;
+    color:white;
+    padding:12px;
+    font-size:15px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f8f8f8;
+}
+
+tr:hover{
+    background:#e8f5e9;
+}
+
+img{
+    width:35px;
+    height:35px;
+}
+
+.time{
+    text-align:left;
+    font-weight:bold;
+}
+
+.ultimos{
+    font-size:18px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>🏆 Campeonato Brasileiro Série A</h1>
+
+<table>
+
+<tr>
+    <th>Pos</th>
+    <th>Escudo</th>
+    <th>Time</th>
+    <th>PJ</th>
+    <th>V</th>
+    <th>E</th>
+    <th>D</th>
+    <th>GP</th>
+    <th>GA</th>
+    <th>DG</th>
+    <th>PTS</th>
+    <th>Últimos 5</th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td><img src="img/palmeiras.png.png"></td>
+    <td class="time">Palmeiras SP</td>
+    <td>18</td><td>12</td><td>5</td><td>1</td><td>30</td><td>13</td><td>17</td><td>41</td>
+    <td class="ultimos">🟢🟢🟢🟢🟢</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td><img src="img/flamengo.png.png"></td>
+    <td class="time">Flamengo</td>
+    <td>17</td><td>10</td><td>4</td><td>3</td><td>31</td><td>16</td><td>15</td><td>34</td>
+    <td class="ultimos">🟢🔴🟢🟢🟢</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td><img src="img/fluminense.png.png"></td>
+    <td class="time">Fluminense RJ</td>
+    <td>18</td><td>9</td><td>4</td><td>5</td><td>28</td><td>23</td><td>5</td><td>31</td>
+    <td class="ultimos">🔴🟢🔴🟢🔴</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td><img src="img/atletico-pr.png.png"></td>
+    <td class="time">CA Paranaense PR</td>
+    <td>18</td><td>9</td><td>3</td><td>6</td><td>24</td><td>18</td><td>6</td><td>30</td>
+    <td class="ultimos">🔴🟢🟢🟢🟢</td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td><img src="img/bragantino.png.png"></td>
+    <td class="time">Red Bull Bragantino SP</td>
+    <td>18</td><td>9</td><td>2</td><td>7</td><td>25</td><td>19</td><td>6</td><td>29</td>
+    <td class="ultimos">🟢🔴🟢🟢🟢</td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td><img src="img/bahia.png.png"></td>
+    <td class="time">Bahia</td>
+    <td>17</td><td>7</td><td>5</td><td>5</td><td>25</td><td>23</td><td>2</td><td>26</td>
+    <td class="ultimos">🔴🔴🟢🟢🟢</td>
+</tr>
+
+<tr>
+    <td>7</td>
+    <td><img src="img/coritiba.png.png"></td>
+    <td class="time">Coritiba PR</td>
+    <td>18</td><td>7</td><td>5</td><td>6</td><td>24</td><td>24</td><td>0</td><td>26</td>
+    <td class="ultimos">🔴🟢🟢🔴🔴</td>
+</tr>
+
+<tr>
+    <td>8</td>
+    <td><img src="img/saopaulo.png.png"></td>
+    <td class="time">São Paulo FC SP</td>
+    <td>18</td><td>7</td><td>4</td><td>7</td><td>23</td><td>20</td><td>3</td><td>25</td>
+    <td class="ultimos">🔴🔴🔴⚪🔴</td>
+</tr>
+
+<tr>
+    <td>9</td>
+    <td><img src="img/atltico-mg.png.png"></td>
+    <td class="time">Atlético Mineiro MG</td>
+    <td>18</td><td>7</td><td>3</td><td>8</td><td>22</td><td>23</td><td>-1</td><td>24</td>
+    <td class="ultimos">🟢🟢🔴🟢🟢</td>
+</tr>
+
+<tr>
+    <td>10</td>
+    <td><img src="img/corinthians.png.png"></td>
+    <td class="time">Corinthians SP</td>
+    <td>18</td><td>6</td><td>6</td><td>6</td><td>18</td><td>19</td><td>-1</td><td>24</td>
+    <td class="ultimos">🔴🟢🔴🟢🟢</td>
+</tr>
+
+<tr>
+    <td>11</td>
+    <td><img src="img/cruzeiro.png.png"></td>
+    <td class="time">Cruzeiro</td>
+    <td>18</td><td>6</td><td>6</td><td>6</td><td>24</td><td>28</td><td>-4</td><td>24</td>
+    <td class="ultimos">🔴🟢🟢⚪⚪</td>
+</tr>
+
+<tr>
+    <td>12</td>
+    <td><img src="img/botafogo.png.png"></td>
+    <td class="time">Botafogo FR RJ</td>
+    <td>17</td><td>6</td><td>4</td><td>7</td><td>31</td><td>31</td><td>0</td><td>22</td>
+    <td class="ultimos">🔴🟢🔴⚪🔴</td>
+</tr>
+
+<tr>
+    <td>13</td>
+    <td><img src="img/vitoria.png.png"></td>
+    <td class="time">EC Vitória BA</td>
+    <td>17</td><td>6</td><td>4</td><td>7</td><td>21</td><td>25</td><td>-4</td><td>22</td>
+    <td class="ultimos">🟢🔴🟢🔴🔴</td>
+</tr>
+
+<tr>
+    <td>14</td>
+    <td><img src="img/internacional.png.png"></td>
+    <td class="time">Internacional RS</td>
+    <td>18</td><td>5</td><td>6</td><td>7</td><td>21</td><td>22</td><td>-1</td><td>21</td>
+    <td class="ultimos">🟢🟢🔴🔴🔴</td>
+</tr>
+
+<tr>
+    <td>15</td>
+    <td><img src="img/santos.png.png"></td>
+    <td class="time">Santos FC SP</td>
+    <td>18</td><td>5</td><td>6</td><td>7</td><td>26</td><td>29</td><td>-3</td><td>21</td>
+    <td class="ultimos">🟢🔴🔴🟢🟢</td>
+</tr>
+
+<tr>
+    <td>16</td>
+    <td><img src="img/gremio.png.png"></td>
+    <td class="time">Grêmio</td>
+    <td>18</td><td>5</td><td>6</td><td>7</td><td>20</td><td>23</td><td>-3</td><td>21</td>
+    <td class="ultimos">🔴🟢🔴🔴⚪</td>
+</tr>
+
+<tr>
+    <td>17</td>
+    <td><img src="img/vasco.png.png"></td>
+    <td class="time">Vasco Gama</td>
+    <td>18</td><td>5</td><td>5</td><td>8</td><td>22</td><td>29</td><td>-7</td><td>20</td>
+    <td class="ultimos">🟢🔴🔴🔴⚪</td>
+</tr>
+
+<tr>
+    <td>18</td>
+    <td><img src="img/remo.png.png"></td>
+    <td class="time">Clube do Remo PA</td>
+    <td>18</td><td>4</td><td>6</td><td>8</td><td>21</td><td>29</td><td>-8</td><td>18</td>
+    <td class="ultimos">🟢🟢🔴🟢🟢</td>
+</tr>
+
+<tr>
+    <td>19</td>
+    <td><img src="img/mirassol.png"></td>
+    <td class="time">Mirassol FC</td>
+    <td>17</td><td>4</td><td>4</td><td>9</td><td>18</td><td>24</td><td>-6</td><td>16</td>
+    <td class="ultimos">🟢🔴🟢🔴🔴</td>
+</tr>
+
+<tr>
+    <td>20</td>
+    <td><img src="img/chapecoense.png.png"></td>
+    <td class="time">Chapecoense</td>
+    <td>18</td><td>3</td><td>5</td><td>10</td><td>17</td><td>28</td><td>-11</td><td>14</td>
+    <td class="ultimos">🔴🔴⚪🔴🟢</td>
+</tr>
+
+</table>
+
+</body>
+</html>
